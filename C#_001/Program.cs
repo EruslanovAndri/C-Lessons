@@ -63,21 +63,19 @@ Console.Clear();
 
 // Console.WriteLine("Введите число:" );
 // int num = Convert.ToInt32(Console.ReadLine());
-// int mon = 1,tues = 2,wen = 3,thirday =4, friday=5, saturday =6, sunday=7;
 
 // if(num == 1)Console.WriteLine($"Понедельник");
-// if(num == 2)Console.WriteLine($"Вторник");
-// if(num == 3)Console.WriteLine($"Среда");
-// if(num == 4)Console.WriteLine($"Четверг");
-// if(num == 5)Console.WriteLine($"Пятница");
-// if(num == 6)Console.WriteLine($"Суббота");
-// if(num == 7)Console.WriteLine($"Воскресенье");
+// else if(num == 2)Console.WriteLine($"Вторник");
+// else if(num == 3)Console.WriteLine($"Среда");
+// else if(num == 4)Console.WriteLine($"Четверг");
+// else if (num == 5)Console.WriteLine($"Пятница");
+// else if (num == 6)Console.WriteLine($"Суббота");
+// else if(num == 7)Console.WriteLine($"Воскресенье");
 // else
 // {
 //     if(num > 7)
 //     {
-//         Console.WriteLine("В недели всего семь дней");
-
+//         Console.WriteLine("В неделе всего семь дней");
 //     }
 //     else
 //     {
@@ -97,7 +95,7 @@ Console.Clear();
 
 // Console.WriteLine("Введите любое число: ");
 // int n = Convert.ToInt32(Console.ReadLine());
-// int i = 0 - n;
+// int i = - n;
 
 // while(i <= n)
 // {
@@ -114,4 +112,14 @@ Console.Clear();
 // 	918 -> 8
 
 
-Console.WriteLine("Введите трехзн")
+// Console.WriteLine("Введите трехзначное число: ");
+// int num  = Convert.ToInt32(Console.ReadLine());
+// int res = 0;
+
+// res = num  % 10;
+
+
+// Console.WriteLine($" The third number is {res}");
+
+// Work
+
